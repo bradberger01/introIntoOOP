@@ -10,8 +10,8 @@ namespace introIntoOOP
     {
         static void Main(string[] args)
         {
-            Cat cat1 = new Cat();
-            Cat cat2 = new Cat("Neko", "black", 3, 1, true, false, true, false);
+            //Cat cat1 = new Cat();
+            //Cat cat2 = new Cat("Neko", "black", 3, 1, true, false, true, false);
             //Console.WriteLine(cat1.Name);
             //Console.WriteLine(cat2.Name);
             //cat1.Name = "Gato";
@@ -21,11 +21,20 @@ namespace introIntoOOP
             //cat2.Eat();
             //cat2.Run();
             //cat2.Eat();
-            cat2.Drink();
-            cat2.Sleep();
-            cat2.Eat();
-            cat2.Sleep();
-            cat1.Talk();
+            //cat2.Drink();
+            //cat2.Sleep();
+            //cat2.Eat();
+            //cat2.Sleep();
+            //cat1.Talk();
+            //Dog coco = new Dog();//create a new dog and give it a name
+
+
+            //coco.Run();
+            //coco.Cuddle("Brad");//adding the string name here.
+            SuperHero goodGuy = new SuperHero("Super Good Guy");
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.NextLevel();
         }
     }
 }

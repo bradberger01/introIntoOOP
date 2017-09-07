@@ -22,6 +22,7 @@ namespace introIntoOOP
             get { return this.name; }
             set { this.name = value; }
         }
+        
         //Constructors
 
         public Cat()
